@@ -1,7 +1,7 @@
 ---
-title:  "JSP : 전송 방식 get/post HTTP Methods"
+title: "JSP : 전송 방식 get/post HTTP Methods"
 excerpt: "get/post 방식 구분하기"
-categories: 
+categories:
   - jsp
 tags:
   - JSP
@@ -22,7 +22,7 @@ font-family: 'IBMPlexSansKR-Regular';
 <ol>
 
 <li>get방식</li>
-  <div><small>주소창을 타고 넘어가기 때문에 서버로 보내는 데이터를 사용자가 그대로 볼 수 있다.<br>
+  <div><small>주소창을 타고 넘어가기 때문에 서버로 보내는 데이터를 사용자가 그대로 볼 수 있다. 흔히, 주소창에서 ? 다음에 오는 parameter들이 get방식이라고 볼수 있다.<br>
        - 정보에 <b>취약</b><br>
        - 255자 이하의 적은 양의 데이터를 전송</small></div>
 <li>post방식</li>
@@ -34,7 +34,7 @@ font-family: 'IBMPlexSansKR-Regular';
 ```jsp
 
 /* form태그로 요청 */
-<form action="CallServlet" method="get"> 
+<form action="CallServlet" method="get">
 //method --> get / post 방식을 결정 할 수 있음
 //기본값은 get
 //CallServlet --> 요청할 서블릿
@@ -48,5 +48,3 @@ font-family: 'IBMPlexSansKR-Regular';
 <a href="CallServlet">get방식</a>
 
 ```
-
-
