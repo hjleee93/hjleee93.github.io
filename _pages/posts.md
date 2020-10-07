@@ -1,0 +1,16 @@
+---
+title: "Posts"
+permalink: /categories/post/
+layout: category
+author_profile: true
+taxonomy: post
+---
+
+<style>
+@font-face { font-family: 'IBMPlexSansKR-Regular';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff'); font-weight: normal; font-style: normal; }
+body{
+font-family: 'IBMPlexSansKR-Regular';
+}
+</style>
+코딩과 관련없는 잡다한 포스트가 올라옵니다.
