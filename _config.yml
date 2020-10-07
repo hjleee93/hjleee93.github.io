@@ -97,7 +97,6 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Junior Web Developer"
   location         : "Seoul, South Korea"
-  email            : "hjleee93@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -258,9 +257,9 @@ defaults:
       path: ""
       type: posts
     values:
+      show_date: true
       layout: single
       author_profile: true
-      read_time: true
       comments: # true
       share: true
       related: true
