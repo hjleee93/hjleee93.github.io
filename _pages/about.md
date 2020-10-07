@@ -5,6 +5,11 @@ subtitle: Junior Web Developer
 permalink: /about/
 ---
 <style>
+  @font-face { font-family: 'IBMPlexSansKR-Regular';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff'); font-weight: normal; font-style: normal; }
+body{
+font-family: 'IBMPlexSansKR-Regular';
+}
 .container{
   text-align:center;
  }
@@ -20,7 +25,7 @@ permalink: /about/
 </ul>
 
 
-### My Portfolio
+<h3>My Portfolio</h3>
 
 현재 포트폴리오를 제작 중에 있습니다.
 </div>
