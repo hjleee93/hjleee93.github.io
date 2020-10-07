@@ -5,12 +5,13 @@ subtitle: Junior Web Developer
 permalink: /about/
 ---
 <style>
-.container-md{
+.container{
   text-align:center;
  }
   li{
   list-style:none;}
 </style>
+<div class="container">
 오늘 보다 더 나은 내일의 Web developer가 되기 위해 공부하고 있습니다.
 
 <ul>
@@ -22,3 +23,4 @@ permalink: /about/
 ### My Portfolio
 
 현재 포트폴리오를 제작 중에 있습니다.
+</div>
