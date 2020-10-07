@@ -3,7 +3,7 @@ main:
    - title: "About"
      url: /about/
    - title: "Posts"
-     url: /posts/
+     url: /categories/posts/
    - title: "JSP/Servlet"
      url: /categories/jsp/
    - title: "Algorithm"
