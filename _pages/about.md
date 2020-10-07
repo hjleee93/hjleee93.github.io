@@ -10,13 +10,17 @@ permalink: /about/
 body{
 font-family: 'IBMPlexSansKR-Regular';
 }
-.container{
+.container, .title{
   text-align:center;
  }
   li{
   list-style:none;}
 </style>
+<div class="title">
+<h1>HYEONJEONG LEE</h1>
+</div>
 <div class="container">
+
 오늘 보다 더 나은 내일의 Web developer가 되기 위해 공부하고 있습니다.
 
 <ul>
