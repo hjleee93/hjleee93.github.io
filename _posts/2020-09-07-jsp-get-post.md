@@ -12,7 +12,7 @@ tags:
 <style>
 @font-face { font-family: 'IBMPlexSansKR-Regular';
    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff'); font-weight: normal; font-style: normal; }
-body{
+body, a{
 font-family: 'IBMPlexSansKR-Regular';
 }
 </style>
