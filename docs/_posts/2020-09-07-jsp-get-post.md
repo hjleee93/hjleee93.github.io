@@ -1,7 +1,7 @@
 ---
 title:  "JSP : 전송 방식 get/post HTTP Methods"
 excerpt: "get/post 방식 구문하기"
-permalink: /categories/jsp/
+permalink: /posts/jsp/
 categories: 
   - JSP
 tags:
