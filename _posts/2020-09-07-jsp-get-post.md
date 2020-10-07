@@ -1,6 +1,6 @@
 ---
 title:  "JSP : 전송 방식 get/post HTTP Methods"
-excerpt: "get/post 방식 구문하기"
+excerpt: "get/post 방식 구분하기"
 categories: 
   - jsp
 tags:
