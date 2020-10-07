@@ -6,5 +6,7 @@ main:
      url: /posts/
    - title: "JSP/Servlet"
      url: /categories/jsp/
+   - title: "Algorithm"
+     url: /categories/algorithm/  
    - title: "Categories"	 
      url: /categories/
