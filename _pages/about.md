@@ -10,6 +10,9 @@ permalink: /about/
 body{
 font-family: 'IBMPlexSansKR-Regular';
 }
+.title{
+  margin: 50px;
+}
 .container, .title{
   text-align:center;
  }
