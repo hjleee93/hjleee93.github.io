@@ -6,6 +6,8 @@ main:
      url: /categories/posts/
    - title: "JSP/Servlet"
      url: /categories/jsp/
+   - title: "Node.js"
+     url: /categories/node/  
    - title: "Algorithm"
      url: /categories/algorithm/  
    - title: "Categories"	 
