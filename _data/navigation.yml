@@ -4,6 +4,8 @@ main:
      url: /about/
    - title: "Posts"
      url: /categories/posts/
+   - title: "Front-end"
+     url: "frontend"
    - title: "JSP/Servlet"
      url: /categories/jsp/
    - title: "Node.js"
