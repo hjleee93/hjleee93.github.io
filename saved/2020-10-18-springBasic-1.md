@@ -1,0 +1,104 @@
+---
+title:  "Spring Framework의 특징"
+excerpt: "Spring 프레임워크의 특징"
+categories: 
+  - Back-end
+tags:
+  - Vue.js
+  - Spring
+---
+
+<style>
+@font-face { font-family: 'IBMPlexSansKR-Regular';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff'); font-weight: normal; font-style: normal; }
+body, a, h3, h4,h1{
+font-family: 'IBMPlexSansKR-Regular';
+}
+td{
+	border: 1px solid;
+}
+</style>
+
+<h3>Spring 프레임워크의 특징</h3>
+
+<p>시작하기 전에 앞서 Vue.js cdn을 포함해주세요</p>
+
+```html
+<!-- 개발버전, 도움되는 콘솔 경고를 포함. -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+or
+
+<!-- 상용버전, 속도와 용량이 최적화됨. -->
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+```
+1. Event binding : 설명은 주석을 참고해주세요
+
+```html
+<div id="app">
+        <!--
+             v-bind 또는 ':' 컴포넌트 속성 또는 표현식을 바인딩 함
+             해당 영역이 자바스크립트 영역이 되므로 변수대입과 
+             같은 기능이 가능해진다 
+         
+            <img :id="`thumbnail_${id}`" :src="image"> 
+            `thumbnail_${id}` : 자바스크립트 영역
+         -->
+        
+        <div :style="[style, fontStyle]"> 
+            <!-- 배열 사용가능 -->
+            테스트 div
+        </div>
+        <!-- v-on 또는 '@' : event listener 연결 -->
+        <button type="button" @click="btnClick">버튼</button>
+        <div :class="[dropdown, toggle]">
+            <ul>
+                <li>메뉴1</li>
+                <li>메뉴2</li>
+            </ul>
+        </div>
+    </div>
+	
+	<script>
+        let app=new Vue({
+            el:"#app",
+            data(){
+                return{
+                    id:1,
+                    image:'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQUbWwRjXj9QEwiW5TRjm9OThsR6sC7WznKCA&usqp=CAU',
+                    style: {//json 형식 string 형식 둘다 가능 
+                        background:'yellow',
+                        
+                    },
+                    fontStyle:{//폰트를 분리하고 싶다면 json Object로 만듬
+                        fontSize:'20px', //-가 붙는 attribute는 camel형식으로 바꿔주면 됨
+                        fontFaily:'JSDongkang-Regular'
+                    },
+                    //클래스명을 적고 클래스 적용 여부를 나타내주면 된다
+                    dropdown:{
+                        dropdown:true,
+                        //false인 경우 dropdown이 적용이 안되고
+                        //true인 경우 적용
+                       
+                    },
+                    toggle:{
+                            on:false
+                        }
+                    
+                };
+            },
+            methods:{ //인스턴스에 메소드를 추가하는 경우 methods를 사용
+                btnClick(){
+                    this.toggle.on =! this.toggle.on;
+
+                }
+            }
+
+        });
+    </script>
+
+```
+
+<a href="https://jsfiddle.net/hjleee/7dpre53j/8/">직접 실행해보기</a>
+
