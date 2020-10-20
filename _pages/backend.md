@@ -1,9 +1,9 @@
 ---
-title: "Node.js"
-permalink: /categories/node/
+title: "Back-end"
+permalink: /categories/backend/
 layout: category
 author_profile: true
-taxonomy: Node.js
+taxonomy: jsp
 ---
 
 <style>
@@ -13,4 +13,4 @@ body{
 font-family: 'IBMPlexSansKR-Regular';
 }
 </style>
-Node.js 공부 포스팅이 올라옵니다.
+JSP&Servlet / Spring / Node.js / java 위주의 포스팅이 올라옵니다.

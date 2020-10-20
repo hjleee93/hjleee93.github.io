@@ -5,9 +5,9 @@ main:
    - title: "Posts"
      url: /categories/posts/
    - title: "Front-end"
-     url: "frontend"
-   - title: "JSP/Servlet"
-     url: /categories/jsp/
+     url: "/categories/frontend/"
+   - title: "Back-end"
+     url: /categories/backend/
    - title: "Node.js"
      url: /categories/node/  
    - title: "Algorithm"
