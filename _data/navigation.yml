@@ -7,9 +7,7 @@ main:
    - title: "Front-end"
      url: "/categories/frontend/"
    - title: "Back-end"
-     url: /categories/backend/
-   - title: "Node.js"
-     url: /categories/node/  
+     url: /categories/backend/ 
    - title: "Algorithm"
      url: /categories/algorithm/  
    - title: "Categories"	 

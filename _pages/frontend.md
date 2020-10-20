@@ -1,6 +1,6 @@
 ---
 title: "Front-end"
-permalink: frontend
+permalink: /categories/frontend/
 layout: category
 author_profile: true
 taxonomy: frontend

@@ -6,7 +6,7 @@ categories:
 tags:
   - JSP
   - get
-  - post
+  - backend
 ---
 
 <style>
