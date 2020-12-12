@@ -23,13 +23,6 @@ td{
 
 지난 포스팅에서 데이터를 성공적으로 가져왓다면 이제 Data Table에 해당하는 데이터를 넣어 줄 차례이다. Data table은 페이징, 검색, 분류기능이 다 제공되어 편리하게 프론트를 구성할 수 있다. 개인적으로 페이징 처리는 예비 개발자로써 중요하다고 생각이 들기 때문에 이 프로젝트가 끝난 후 개인 프로젝트에서 다시 적용해 볼 예정이다.
 
-<h3><u>Data Table 구성하기</u></h3>
-
-프론트 틀은 직접 사이트에서 원하는 틀로 선택 후 작성 해주시면 됩니다.
-<a href="https://v15.vuetifyjs.com/en/components/data-tables/"> Data Table Reference</a>
-
-Data Talbe을 사용할 컴퐅넌트에서 mapState로 jobs로 불러왔기 때문에 바로 작성이 가능합니다.
-
 전체 코드
 
 ```js
@@ -57,7 +50,7 @@ Data Talbe을 사용할 컴퐅넌트에서 mapState로 jobs로 불러왔기 때�
 
         <-- template 파트는 필수 항목은 아니지만 테이블의 구성을 수정하고 싶을 때 사용하면 됩니다 -->
         <template v-slot:item="props">
-
+        <-- props를 출력하면 tableList에 해당하는 데이터가 JSON형식으로 출력됩니다-->
           <tr class="job-info" @click="moveDtlPage(props.item.jobNo)">
             <td >{{props.item.company}}</td>
             <td><p id="job-title">{{props.item.title}}</p><p>
