@@ -1,5 +1,5 @@
 ---
-title: "Vue.js vuetify Data Table - 3"
+title: "Vue.js vuetify Data Table - 2"
 excerpt: "XML 파싱해서 Data table에 데이터 넣기"
 categories:
   - frontend
