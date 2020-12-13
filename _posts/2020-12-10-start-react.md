@@ -33,7 +33,7 @@ td{
 
 2. vs코드 새 윈도우 열기 - 드래그 앤 드랍으로 새폴더를 새 윈도우에 넣어주세요
 
-<img src="../assets/img/react-1.JPG">
+<img src="/assets/img/react-1.JPG">
 
 3. ctrl + ~ 눌러서 terminal을 열어주세요
    bash로 설정해주시고
