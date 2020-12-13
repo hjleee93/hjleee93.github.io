@@ -42,7 +42,7 @@ td{
 4. npx create-react-app '프로젝트명'을 터미널에 입력해주세요
    (저는 portfolio로 만들었습니다.)
 
-<img src="/assets/img/react-2.PNG">
+<img src="/assets/img/react2.PNG">
 
 5. 이러한 화면이 터미널에 나타나면 리액트 프로젝트 만들기 끝!
    <img src="/assets/img/react-3.JPG">
