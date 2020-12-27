@@ -13,4 +13,5 @@ body{
 font-family: 'IBMPlexSansKR-Regular';
 }
 </style>
-코딩과 관련없는 잡다한 포스트가 올라옵니다.
+
+개발 기술 관련 포스트가 올라옵니다.
