@@ -4,6 +4,7 @@ title: About me
 subtitle: Junior Web Developer
 permalink: /about/
 ---
+
 <style>
   @font-face { font-family: 'IBMPlexSansKR-Regular';
    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff'); font-weight: normal; font-style: normal; }
@@ -30,9 +31,10 @@ font-family: 'IBMPlexSansKR-Regular';
 <li>개인적으로 공부하는 내용을 포스팅하고 있습니다.</li>
 <li>코딩뿐만 아니라 다방면에 관심을 가지고 있습니다.</li>
 </ul>
+<br>
+<h2>My Portfolio</h2>
+https 환경으로 배포된 포트폴리오입니다.<br>
+<br>
+<a href="https://hyeonlog.com/">포트폴리오 사이트 바로가기</a>
 
-
-<h3>My Portfolio</h3>
-
-현재 포트폴리오를 제작 중에 있습니다.
 </div>

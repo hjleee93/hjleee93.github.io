@@ -64,6 +64,4 @@ Site deploy in progress 이 끝나길 기다려주세요! 그럼 아래와 같�
 
 <a href="https://hyeonlog.com/">HyeonLog</a>
 
-이제 라우터연동해서 상세 페이지만 좀더 추가하면 될 것 같습니다!!!
-
 여러분들도 성공적인 포트폴리오 사이트 배포하시길 바라겠습니다:)
