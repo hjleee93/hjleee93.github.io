@@ -20,7 +20,7 @@ title                    : "HyeonLOG"
 title_separator          : "Junior Web Developer"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Hyeonjeong Lee"
-description              : "To become a web developer"
+description              : "To become a web developer. 검색최적화 진행중입니다. "
 url                      : "https://hjleee93.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
