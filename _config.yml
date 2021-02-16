@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Hyeonjeong Lee"
-  avatar           : "/assets/images/profile.jpg"
+  #avatar           : "/assets/images/profile.jpg"
   bio              : "Junior Web Developer"
   location         : "Seoul, South Korea"
   links:
