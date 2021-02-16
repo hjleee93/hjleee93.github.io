@@ -64,6 +64,7 @@
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
 <meta property="og:url" content="{{ canonical_url }}">
+<meta property="og:image" content="{{site.profile}}" />
 
 {% if seo_description %}
   <meta property="og:description" content="현정블로그 검색 최적화 진행중입니다.">
