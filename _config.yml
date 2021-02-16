@@ -20,7 +20,7 @@ title                    : "HyeonLOG"
 #title_separator          : "Junior Web Developer"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Hyeonjeong Lee"
-description              : "<a href="https://hjleee93.github.io/categories/frontend/">프론트엔드</a><br>Vue.js & JavaScript"
+description              : "<a href="https://hjleee93.github.io/categories/frontend/">프론트엔드</a>"
 url                      : "https://hjleee93.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
