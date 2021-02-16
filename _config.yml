@@ -22,7 +22,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "Hyeonjeong Lee"
 description              : "프론트엔드"
 url                      : "https://hjleee93.github.io"
-profile                  : "/assets/images/profile.jpg"
+profile                  : "https://hyeonlog.com/static/05ff0292aa6d8107b89f8a13ed22377a/89f4f/profile.jpg"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
