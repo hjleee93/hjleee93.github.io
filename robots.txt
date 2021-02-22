@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: http://hjleee93.github.io/sitemap.xml
+
+#DaumWebMasterTool:ad8ae84b5bd284a2488878f4e899d897ebf42db40fa0baf6743448aa1ad79113:PFbBGM5xd7AzTd1zw/vLLw==
