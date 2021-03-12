@@ -39,12 +39,12 @@ npm install vue-i18n
 vue add i18n //vue 3.0 이상인 경우
 ```
 
+<img src="/assets/img/i18n-1.jpg"><br/>
+설치를 진행해주세요. 저는 vue add i18n을 이용했습니다.
 
-<img src="/assets/img/i18n-1.jpg">
+<img src="/assets/img/i18n-2.jpg"><br/>
 위와 같은 파일이 생기는데 js,ts 차이는 무시해도 됩니다.
 
-<img src="/assets/img/i18n-2.jpg">
-파일 구조는 위와 같습니다.
 
 
 
