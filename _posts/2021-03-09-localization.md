@@ -10,6 +10,19 @@ tags:
   - vue.js
   - HyeonLog
 ---
+
+<style>
+@font-face { font-family: 'IBMPlexSansKR-Regular';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff'); font-weight: normal; font-style: normal; }
+body, a, h3, h4,h1{
+font-family: 'IBMPlexSansKR-Regular';
+}
+td{
+	border: 1px solid;
+}
+</style>
+
+
 ## Localization 진행하기(다국어 처리) 
 
 학원, 학교를 다니며 프로젝트를 하면서도 항상 글로벌화에 대한 궁금증이 막연하게 있었는데 찾아보지는 않는 삶을 살아왔습니다.
