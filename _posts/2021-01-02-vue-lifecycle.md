@@ -28,7 +28,7 @@ Vue.js 공식사이트에서 발췌한 내용을 위주로 정리해두었습니
 <a href="https://vuejs.org/v2/guide/instance.html">Vue.js 사이트 바로가기</a>
 
 Vue의 라이프 사이클을 검색하면 가장 먼저 만날 수 있는 이미지<br>
-정말 직관적으로 이해하기 쉽지 작성된 플로우 차트라고 생각한다.<br>
+정말 직관적으로 이해하기 쉽게 작성된 플로우 차트라고 생각한다.<br>
 단지 내가 겉핥기로만 알고있었을 뿐,,,
 
 <img src="/assets/img/lifecycle.png">

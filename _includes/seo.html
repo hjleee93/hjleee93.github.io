@@ -51,6 +51,11 @@
 <meta name="description" content="{{ seo_description }}">
 <meta name="robots" content="index,follow">
 <meta name="naver-site-verification" content="98a2d64368cc4e90b4f87937df4890b3a42d8dab" />
+<meta name="NaverBot" content="All"/>
+ <meta name="NaverBot" content="index,follow"/> 
+ <meta name="Yeti" content="All"/>
+  <meta name="Yeti" content="index,follow"/>
+
 
 {% if author.name %}
   <meta name="author" content="{{ author.name | default: author }}">
@@ -64,6 +69,8 @@
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
 <meta property="og:url" content="{{ canonical_url }}">
+<meta property="og:image" content="{{site.profile}}" /> 
+<meta property="fb:app_id" content="262326255281470">
 
 {% if seo_description %}
   <meta property="og:description" content="현정블로그 검색 최적화 진행중입니다.">

@@ -17,11 +17,12 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "ko-KR"
 title                    : "HyeonLOG"
-title_separator          : "Junior Web Developer"
+#title_separator          : "Junior Web Developer"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Hyeonjeong Lee"
-description              : "To become a web developer. 검색최적화 진행중입니다.20210216 "
+description              : "프론트엔드 개발자 블로그입니다. 현재 검색최적화를 진행중입니다."
 url                      : "https://hjleee93.github.io"
+profile                  : "https://hyeonlog.com/static/05ff0292aa6d8107b89f8a13ed22377a/89f4f/profile.jpg"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -94,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Hyeonjeong Lee"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  #avatar           : "/assets/images/profile.jpg"
   bio              : "Junior Web Developer"
   location         : "Seoul, South Korea"
   links:
